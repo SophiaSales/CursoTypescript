@@ -49,3 +49,10 @@ let cart: object;
 cart = {
     key: "fi"
 };
+
+let message2 = "mensagem definada"
+message2 = "string nova"
+
+window.addEventListener("click", (e) =>{
+    console.log(e.target);
+})
