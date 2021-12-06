@@ -1,5 +1,3 @@
-import { platform } from "os";
-
 type Uid = number | string | undefined
 
 function logDetails(uid: Uid, item: string){ // um item pode ser tipado com dois tipos no typestript
